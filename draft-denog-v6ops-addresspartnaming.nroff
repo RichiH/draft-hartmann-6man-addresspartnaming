@@ -79,7 +79,7 @@ discusses several naming proposal for those 16bit pieces of IPv6 addreses.
 Table of Contents
 
 .nf
-.so draft-denog-v6ops-addresspartnaming-02.toc
+.so draft-denog-v6ops-addresspartnaming.toc
 .fi
 .bp
 .hy 14
@@ -150,9 +150,9 @@ many languages as possible.
 .ti 0
 4. Naming Proposals
 
-We are presenting a broadest selection of mostly serious proposals which
-needs to be narrowed in the future by straw polls and finally select one
-using normal IETF consensus.
+We are presenting the broadest selection of serious proposals which needs
+to be narrowed in the future by straw polls. Finally, a winner will be
+selected via normal IETF consensus.
 
 .ti 0
 4.1. Chazwazza
