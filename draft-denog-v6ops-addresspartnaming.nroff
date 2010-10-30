@@ -207,19 +207,24 @@ correct and probably convenient to get used to. On the other hand, it is
 much harder to pronounce.
 
 .ti 0
-4.8. Hit
+4.8. Hextet
 
-Short for "hex-bit", short and convenient to pronounce, however usually
+Short form of "Hexadectet".
+
+.ti 0
+4.9. Hit
+
+Short form of "hex-bit", short and convenient to pronounce, however usually
 associated with a completely different meaning.
 
 .ti 0
-4.9. Orone
+4.10. Orone
 
 Initially started as a typo in [greg], "orone" is a short, unique word
 without a specific meaning yet.
 
 .ti 0
-4.10. Part
+4.11. Part
 
 The word "part" has been used throughout this document to describe the
 subject until there is a better term for this. It is very unspecific and can
@@ -227,7 +232,7 @@ be used in countless ways, not only to describe 16bit long parts of an IPv6
 address.
 
 .ti 0
-4.11. Provider number, customer number, network number
+4.12. Provider number, customer number, network number
 
 These terms provide semantic descriptions of the different parts of an IPv6
 address. However, it is not within the scope of this document to find terms
@@ -238,20 +243,20 @@ would introduce new problems, like limited applicability, e.g. it would not
 work for multicast addresses.
 
 .ti 0
-4.12. Quad nibble, qibble, quibble
+4.13. Quad nibble, qibble, quibble
 
 A nibble is a 4bit entity, hence 16 bits are a quad nibble. This is a rather
 bulky word, however, so "quibble" is a convenient abbreviation. Also, it is
 a unique term, thus eliminating any chances of misinterpretation.
 
 .ti 0
-4.13. Segment
+4.14. Segment
 
 "Segment" is another obvious choice, however it is also quite unspecific and
 used in different contexts, e.g. "network segments".
 
 .ti 0
-4.14. Tuple
+4.15. Tuple
 
 A tuple is a sequence of typically heterogenous elements considered as a new
 entity by itself. It is also a short, descriptive word that is not yet
@@ -259,7 +264,7 @@ associated with anything networking related. Usually a tuple exceeds
 grouping by creating a new semantic level.
 
 .ti 0
-4.15. Word
+4.16. Word
 
 A "word" usually refers to a fixed group of bits that are processed at a
 time, and especially on legacy x86 systems is a synonym for 16 bits. It has
@@ -418,3 +423,5 @@ Appendix A. Change History
 
 02 - Fixing nits
    - Propose a selection mechanism
+
+03 - Added Hextet
