@@ -8,8 +8,8 @@
 .ds LH Internet Draft
 .ds CH Naming IPv6 address parts
 .ds LF Donnerhacke, Hartmann
-.ds RH october 5, 2010
-.ds CF Expires April 6, 2011
+.ds RH November 3, 2010
+.ds CF Expires May 3, 2011
 .hy 0
 .ad l
 .nf
@@ -17,8 +17,8 @@
 Internet Draft                                            L. Donnerhacke
 Category: Proposed Standard                               Editor (DENOG)
 Updates: 4291, 5952                                     Richard Hartmann
-Expires: April 6, 2011                                    Editor (DENOG)
-                                                         October 6, 2010
+Expires: May 3, 2011                                      Editor (DENOG)
+                                                        November 3, 2010
 
 .ce 2
 Naming IPv6 address parts
@@ -47,7 +47,7 @@ http://www.ietf.org/ietf/1id-abstracts.txt.
 The list of Internet-Draft Shadow Directories can be accessed at
 http://www.ietf.org/shadow.html.
 
-This Internet-Draft will expire on April 6, 2011.
+This Internet-Draft will expire on May 3, 2011.
 
 .ti 0
 Copyright Notice
