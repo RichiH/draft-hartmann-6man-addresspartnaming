@@ -8,8 +8,8 @@
 .ds LH Internet Draft
 .ds CH Naming IPv6 address parts
 .ds LF Donnerhacke, Hartmann
-.ds RH April 6, 2011
-.ds CF Expires October 5, 2011
+.ds RH April 7, 2011
+.ds CF Expires October 6, 2011
 .hy 0
 .ad l
 .nf
@@ -18,11 +18,11 @@ Internet Draft                                            L. Donnerhacke
 Category: Proposed Standard                                       Editor
 Updates: 4291, 5952                                     Richard Hartmann
 Expires: October 5, 2011                                          Editor
-                                                           April 6, 2011
+                                                           April 7, 2011
 
 .ce 2
 Naming IPv6 address parts
-draft-denog-v6ops-addresspartnaming-03.txt
+draft-denog-v6ops-addresspartnaming-04
 
 .fi
 .in 3
@@ -152,23 +152,23 @@ many languages as possible.
 4. Naming Proposals
 
 .ti 0
-4.1. Hextet
+4.1. hextet
 
-"Hexadectet" is directly derived from IPv4's "octet", thus technically
+"hexadectet" is directly derived from IPv4's "octet", thus technically
 correct and convenient to get used to. Because it is harder to pronounce,
 the short form "hextet" is used.
 
-"Hextet" MUST be used in all technical documents and specifications refering
+"hextet" MUST be used in all technical documents and specifications refering
 to IPv6 address parts.
 
 .ti 0
-4.2. Quibble
+4.2. quibble
 
 A nibble is a 4bit entity, hence 16 bits are a quad nibble. This is a rather
 bulky word, however, so "quibble" is a convenient abbreviation. It is a unique
 term in networking but has an existing meaning in ordinary English.
 
-"Quibble" MAY be used for informal communication.
+"quibble" MAY be used for informal communication.
 
 .ti 0
 5. Security Considerations
@@ -330,3 +330,7 @@ Appendix A. Change History
 03 - Added Hextet
    - Removed references to DENOG
    - Select two proposals based of the straw poll and the WG
+
+04 - Upgraded hextet to MUST
+   - Corrected formalia & typos
+   - lower-cased hextet and quibble as that is consensus for octet
