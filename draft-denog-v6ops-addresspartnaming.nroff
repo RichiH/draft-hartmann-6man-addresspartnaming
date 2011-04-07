@@ -8,21 +8,21 @@
 .ds LH Internet Draft
 .ds CH Naming IPv6 address parts
 .ds LF Donnerhacke, Hartmann
-.ds RH November 3, 2010
-.ds CF Expires May 3, 2011
+.ds RH April 6, 2011
+.ds CF Expires October 5, 2011
 .hy 0
 .ad l
 .nf
 .\" 5678901234567 check 72 column width 12345678901234567890123456789012
 Internet Draft                                            L. Donnerhacke
-Category: Proposed Standard                               Editor (DENOG)
+Category: Proposed Standard                                       Editor
 Updates: 4291, 5952                                     Richard Hartmann
-Expires: May 3, 2011                                      Editor (DENOG)
-                                                        November 3, 2010
+Expires: October 5, 2011                                          Editor
+                                                           April 6, 2011
 
 .ce 2
 Naming IPv6 address parts
-draft-denog-v6ops-addresspartnaming-02.txt
+draft-denog-v6ops-addresspartnaming-03.txt
 
 .fi
 .in 3
@@ -47,12 +47,12 @@ http://www.ietf.org/ietf/1id-abstracts.txt.
 The list of Internet-Draft Shadow Directories can be accessed at
 http://www.ietf.org/shadow.html.
 
-This Internet-Draft will expire on May 3, 2011.
+This Internet-Draft will expire on October 5, 2011.
 
 .ti 0
 Copyright Notice
 
-Copyright (c) 2010 IETF Trust and the persons identified as the document
+Copyright (c) 2011 IETF Trust and the persons identified as the document
 authors.  All rights reserved.
 
 This document is subject to BCP 78 and the IETF Trust's Legal Provisions
@@ -79,9 +79,9 @@ discusses several naming proposal for those 16bit pieces of IPv6 addreses.
 Table of Contents
 
 .nf
-.so draft-denog-v6ops-addresspartnaming.toc
+.so draft-denog-v6ops-addresspartnaming-03.toc
 .fi
-.bp
+
 .hy 14
 .in 3 
 .ti 0
@@ -104,6 +104,7 @@ hexadecimal digits of the eight 16-bit pieces of the address.
 [IPv6Rep] is the normative reference to IPv6 address text representation and
 introduces the term "16-bit field" or short "field".
 
+.bp
 .ti 0
 2. Rationale
 
@@ -136,7 +137,6 @@ Since parts of the internet community only accept authoritative advice
 substantiated by a published document, also known as the 'citation needed'
 approach, it is helpful to have a definite source.
 
-.bp
 .ti 0
 3. Naming Considerations
 
@@ -147,129 +147,29 @@ language in the IT world today, a good name should describe the technical
 matter precisely while being easy to remember, spell and pronounce in as
 many languages as possible.
 
+.bp
 .ti 0
 4. Naming Proposals
 
-We are presenting the broadest selection of serious proposals which needs
-to be narrowed in the future by straw polls. Finally, a winner will be
-selected via normal IETF consensus.
-
 .ti 0
-4.1. Chazwazza
-
-"Chazwazza" was proposed as a Simpsons reference, see [greg]. While this is
-certainly a unique term in the networking world, it is not particularly
-meaningful nor easy to pronounce.
-
-.ti 0
-4.2. Chunk
-
-A chunk is commonly understood to be a specific amount of data. The term is
-not unique to IPv6, however easy to remember and pronounce.
-
-.ti 0
-4.3. Column
-
-The colons in an IPv6 address' text representation make it similar to a
-table. Besides that, the meaning of the word "column" has very little to do
-with the actual technical meaning of a 16bit piece of an IPv6 address,
-though.
-
-.ti 0
-4.4. Colonade, Colonnade
-
-Based on the colon as seperator the word sounds English (using a single 'n'
-to make it an artificial word) and is easy to spell and pronounce.
-Alternatively, "colonnade" could be used, overloading the existing, yet
-unrelated word with a new meaning.
-
-.ti 0
-4.5. Doctet
-
-Derived from "double octet", thus accurately describes the technical matter,
-as an octet is a standard term for a sequence of 8 bits.
-
-.bp
-.ti 0
-4.6. Field
-
-A "field" describes a form of a data structure in many programming
-languages. The term stresses the fact that a field is one of multiple
-fractions of a bigger subject, just like countryside is divided into fields,
-or like IPv6 addresses into 16bit long pieces. A drawback of that similarity
-is the lack of uniqueness to IPv6, though.
-
-.ti 0
-4.7. Hexadectet
+4.1. Hextet
 
 "Hexadectet" is directly derived from IPv4's "octet", thus technically
-correct and probably convenient to get used to. On the other hand, it is
-much harder to pronounce.
+correct and convenient to get used to. Because it is harder to pronounce,
+the short form "hextet" is used.
+
+"Hextet" SHOULD be the standard term in technical documents refering to IPv6
+address parts.
 
 .ti 0
-4.8. Hextet
-
-Short form of "Hexadectet".
-
-.ti 0
-4.9. Hit
-
-Short form of "hex-bit", short and convenient to pronounce, however usually
-associated with a completely different meaning.
-
-.ti 0
-4.10. Orone
-
-Initially started as a typo in [greg], "orone" is a short, unique word
-without a specific meaning yet.
-
-.ti 0
-4.11. Part
-
-The word "part" has been used throughout this document to describe the
-subject until there is a better term for this. It is very unspecific and can
-be used in countless ways, not only to describe 16bit long parts of an IPv6
-address.
-
-.ti 0
-4.12. Provider number, customer number, network number
-
-These terms provide semantic descriptions of the different parts of an IPv6
-address. However, it is not within the scope of this document to find terms
-describing semantic, but rather syntactic elements.
-
-Furthermore, naming the 16bit pieces of IPv6 addresses in a semantic way
-would introduce new problems, like limited applicability, e.g. it would not
-work for multicast addresses.
-
-.ti 0
-4.13. Quad nibble, qibble, quibble
+4.2. Quibble
 
 A nibble is a 4bit entity, hence 16 bits are a quad nibble. This is a rather
 bulky word, however, so "quibble" is a convenient abbreviation. Also, it is
-a unique term, thus eliminating any chances of misinterpretation.
+a unique term in networking and has a similar conotation in ordinary
+English.
 
-.ti 0
-4.14. Segment
-
-"Segment" is another obvious choice, however it is also quite unspecific and
-used in different contexts, e.g. "network segments".
-
-.ti 0
-4.15. Tuple
-
-A tuple is a sequence of typically heterogenous elements considered as a new
-entity by itself. It is also a short, descriptive word that is not yet
-associated with anything networking related. Usually a tuple exceeds
-grouping by creating a new semantic level.
-
-.ti 0
-4.16. Word
-
-A "word" usually refers to a fixed group of bits that are processed at a
-time, and especially on legacy x86 systems is a synonym for 16 bits. It has
-a different and much more unspecific meaning to less technically skilled
-people, which might be problematic.
+"Quibble" MIGHT be used for informal communication.
 
 .ti 0
 5. Security Considerations
@@ -304,13 +204,13 @@ Address Text Representation", RFC 5952, August 2010
 [Q.6]      ITU-T, "Advantages of international automatic working",
 Fascicle VI.1 of the Blue Book, 1988
 
+.bp
 .ti 0
 7.2. Informal References
 
 .ti 3
 [greg]     http://etherealmind.com/network-dictionary-chazwazza/, Sept 5, 2010
 
-.bp
 .in 3
 .ti 0
 8. Acknowledgements
@@ -318,12 +218,16 @@ Fascicle VI.1 of the Blue Book, 1988
 Thanks go to Greg Ferro who initiated the discussion by proposing the term
 "chazwazza".[greg]
 
-Thanks all the people who read to this point and are willing to provide
-valuable input instead of simply shaking their heads and moving on.
+Many thanks to all those people which contribute to our work and participate
+in the straw poll about all the other propoals, which are described in
+former versions of this memo: Chazwazza, Chunk, Column, Colonade, Colonnade,
+Doctet, Field, Hexadectet, Hit, Orone, Part, Provider number, customer
+number, network number, Quad nibble, qibble, Segment, Tuple, and Word.
 
 The inital version of this document was created following the spirit of
 [Q.6].
 
+.bp
 .ti 0
 Authors' Addresses
 
@@ -425,3 +329,5 @@ Appendix A. Change History
    - Propose a selection mechanism
 
 03 - Added Hextet
+   - Removed references to DENOG
+   - Select two proposals based of the straw poll and the WG
