@@ -158,18 +158,17 @@ many languages as possible.
 correct and convenient to get used to. Because it is harder to pronounce,
 the short form "hextet" is used.
 
-"Hextet" SHOULD be the standard term in technical documents refering to IPv6
-address parts.
+"Hextet" MUST be used in all technical documents and specifications refering
+to IPv6 address parts.
 
 .ti 0
 4.2. Quibble
 
 A nibble is a 4bit entity, hence 16 bits are a quad nibble. This is a rather
-bulky word, however, so "quibble" is a convenient abbreviation. Also, it is
-a unique term in networking and has a similar conotation in ordinary
-English.
+bulky word, however, so "quibble" is a convenient abbreviation. It is a unique
+term in networking but has an existing meaning in ordinary English.
 
-"Quibble" MIGHT be used for informal communication.
+"Quibble" MAY be used for informal communication.
 
 .ti 0
 5. Security Considerations
