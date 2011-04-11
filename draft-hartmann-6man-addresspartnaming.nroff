@@ -158,6 +158,8 @@ many languages as possible.
 correct and convenient to get used to. Because it is harder to pronounce,
 the short form "hextet" is used.
 
+A hextet refers to a 16 bit entity, aligned by colons.
+
 "hextet" MUST be used in all technical documents and specifications refering
 to IPv6 address parts.
 
