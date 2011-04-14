@@ -223,11 +223,11 @@ Levels
 Thanks go to Greg Ferro who initiated the discussion by proposing the term
 "chazwazza".[greg]
 
-Many thanks to all those people which contribute to our work and participate
-in the straw poll about all the other propoals, which are described in
+Many thanks to all everyone who contributed to this document and participated
+in the poll, whittling down the other propoals, which are described in
 former versions of this memo: Chazwazza, Chunk, Column, Colonade, Colonnade,
-Doctet, Field, Hexadectet, Hit, Orone, Part, Provider number, customer
-number, network number, Quad nibble, qibble, Segment, Tuple, and Word.
+Doctet, Field, Hexadectet, Hit, Orone, Part, Provider Number, Customer
+Number, Network Number, Quad nibble, Qibble, Segment, Tuple, and Word.
 
 The inital version of this document was created following the spirit of
 [Q.6].
@@ -248,6 +248,7 @@ Richard Hartmann
 Munich
 Germany
 Email: richih.mailinglist@gmail.com
+IRC: RichiH@{freenode,OFTC,IRCnet}
 http://richardhartmann.de
 
 Michael Horn
