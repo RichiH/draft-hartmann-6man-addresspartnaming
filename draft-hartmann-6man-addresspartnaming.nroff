@@ -159,7 +159,7 @@ A hextet refers to a 16 bit entity, aligned by colons.
 
 "hextet" MUST be used in all technical documents and specifications refering
 to IPv6 address parts. It SHOULD be used in all informal communication,
-written or otherwise
+written or otherwise.
 
 .ti 0
 5. Security Considerations
