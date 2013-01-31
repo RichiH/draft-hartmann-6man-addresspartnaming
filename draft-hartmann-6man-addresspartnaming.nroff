@@ -14,11 +14,10 @@
 .ad l
 .nf
 .\" 5678901234567 check 72 column width 12345678901234567890123456789012
-Internet Draft                                            L. Donnerhacke
+Internet Draft                                          Richard Hartmann
 Category: Proposed Standard                                       Editor
-Updates: 4291, 5952                                     Richard Hartmann
-Expires: November 5, 2011                                         Editor
-                                                             May 6, 2011
+Updates: 4291, 5952
+Expires: November 5, 2011                                    May 6, 2011
 
 .ce 2
 Naming IPv6 address parts
@@ -261,51 +260,6 @@ EMail: leon@whitejack.org
 
 .bp
 .ti 0
-Supporter's Addresses
-
-Ronny Boesger
-Lahnsteiner Strasse 7
-07629 Hermsdorf
-eMail: rb@isppro.de
-
-Thorsten Dahm
-Josefstrasse 21
-66265 Heusweiler
-Germany
-EMail: t.dahm@resolution.de
-
-Joerg Dorchain
-Harspergerflur 23
-66740 Saarlouis
-Germany
-EMail: joerg@dorchain.net
-
-Sascha Lenz
-s-lz.net
-Zum Oberbaeumle 49
-97318 Kitzingen
-Germany
-E-Mail: sascha.lenz@s-lz.net
-
-Jens Link 
-Freelance Consultant
-Foelderichstr. 40
-13595 Berlin
-Germany
-EMail: jl@jenslink.net
-
-Jan Walzer
-Kopernikusstrasse 2
-68519 Viernheim
-Germany
-EMail: jan.w@lzer.net
-
-Sebastian Wiesinger
-Germany
-EMail: sebastian@karotte.org
-
-.bp
-.ti 0
 Appendix A. Change History
 
 00 - inital version
@@ -313,3 +267,6 @@ Appendix A. Change History
 
 01 - propose hextet as only option, try to get this version
      accepted as WG item
+
+02 - remove L. Donnerhacke as editor
+     remove list of supporters
